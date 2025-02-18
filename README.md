@@ -1,7 +1,10 @@
 ---
-date:
-aspectratio: 169
 theme: metropolis
+aspectratio: 169
+header-includes:
+  - \usetheme{metropolis}
+  - \definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
+  - \usepackage[sfdefault,lining]{FiraSans}
 ---
 
 # Planar Network Diversion
@@ -17,13 +20,17 @@ theme: metropolis
 
 Pål Grønås Drange
 
+\smallskip
+
+\scriptsize
+
 _University of Bergen_
 
 February 21, 2025
 
 \medskip
 
-\scriptsize
+\tiny
 
 Joint work with
 
@@ -38,7 +45,7 @@ Joint work with
 
 * \textsc{Minimum $s$-$t$-Cuts}
 * \textsc{Network Diversion}
-  * Planar case: P $O(n \log n)$
+  * Planar case: $O(n \log n)$
   * Directed: NP-complete
   * Undirected: Open
 
@@ -47,7 +54,17 @@ Joint work with
 
 # Cut -- Cycle space duality
 
-# Algorithm
+![](del0.png){ width=30% }
+![](del-cycle.png){ width=30% }
+![](del-cut.png){ width=30% }
+
+![](del-paths.png){ width=30% }
+![](del-odd-paths.png){ width=30% }
+![](del-s-t-cut.png){ width=30% }
+
+
+
+# Algorithm: Planar Network Diversion
 
 ![](del0.png){ width=30% }
 ![](del1.png){ width=30% }
